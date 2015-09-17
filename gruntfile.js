@@ -27,8 +27,7 @@ module.exports = function(grunt) {
                     'lib/angular-route/angular-route.js',
                     'lib/firebase/firebase.js',
                     'lib/angularfire/dist/angularfire.js',
-                    'lib/ngImgCrop/compile/minified/ng-img-crop.js',
-                    'lib/toastr/toastr.js',
+                    'lib/ng-img-crop/compile/minified/ng-img-crop.js',
                     'src/app/app.js',
                     'src/app/config.js',
                     'src/app/routes.js',
@@ -65,7 +64,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'dist/app/components/header/header.html': 'src/app/components/header/header.html',
-                    'dist/app/modules/home/home.html': 'src/app/modules/home/home.html',
+                    'dist/app/modules/dashboard/dashboard.html': 'src/app/modules/dashboard/dashboard.html',
                     'dist/app/modules/login/login.html': 'src/app/modules/login/login.html',
                     'dist/app/modules/post/post.html': 'src/app/modules/post/post.html',
                 }
