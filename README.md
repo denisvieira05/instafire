@@ -2,6 +2,8 @@
 
 #### Instagram style web application with AngularJS and Firebase . 
 
+#### DEMO : https://instafire.firebaseapp.com/
+
  1 - Install dependencies
 ```
 npm install
