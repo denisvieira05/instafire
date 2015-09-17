@@ -22,32 +22,36 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Fire{ng}ram">
 
-    <link rel="stylesheet" href="../bower_components/bootswatch/paper/bootstrap.css"/>
-    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
-    <link rel="stylesheet" href="../bower_components/ngImgCrop/compile/minified/ng-img-crop.css"/>
-    <link rel="stylesheet" href="../assets/styles.css"/>
+    <link rel="stylesheet" href="../lib/bootswatch/paper/bootstrap.css"/>
+    <link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../lib/ng-img-crop/compile/minified/ng-img-crop.css"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
 
 </head>
 <body>
 
-    
+    <div ng-include="'app/components/header/header.html'" ng-show="user"></div>
+    <br/><br/>
+
+    <div class="container" ng-view></div>
+    <br/><br/>
 
 
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/angular/angular.js"></script>
-    <script src="../bower_components/angular-route/angular-route.js"></script>
-    <script src="../bower_components/firebase/firebase.js"></script>
-    <script src="../bower_components/angularfire/dist/angularfire.js"></script>
-    <script src="../bower_components/ngImgCrop/compile/minified/ng-img-crop.js"></script>
+    <script src="./../lib/jquery/dist/jquery.min.js"></script>
+    <script src="./../lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./../lib/angular/angular.min.js"></script>
+    <script src="./../lib/angular-route/angular-route.js"></script>
+    <script src="./../lib/firebase/firebase.js"></script>
+    <script src="./../lib/angularfire/dist/angularfire.js"></script>
+    <script src="./../lib/ng-img-crop/compile/minified/ng-img-crop.js"></script>
 
-    <script src="../app/app.js"></script>
-    <script src="../app/config.js"></script>
-    <script src="../app/routes.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/config.js"></script>
+    <script src="app/routes.js"></script>
 
-    <script src="../app/controllers/home-controller.js"></script>
-    <script src="../app/controllers/post-controller.js"></script>
-    <script src="../app/controllers/login-controller.js"></script>
+    <script src="app/modules/dashboard/DashboardCtrl.js"></script>    
+    <script src="app/modules/login/LoginCtrl.js"></script>
+    <script src="app/modules/post/PostCtrl.js"></script>
 
 </body>
 </html>

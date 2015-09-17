@@ -5,17 +5,17 @@
             .when('/', {
                 controller: 'HomeCtrl',
                 controllerAs: 'vm',
-                templateUrl: 'pages/home.html'
+                templateUrl: 'app/modules/dashboard/dashboard.html'
             })
             .when('/post', {
                 controller: 'PostCtrl',
                 controllerAs: 'vm',
-                templateUrl: 'pages/post.html'
+                templateUrl: 'app/modules/post/post.html'
             })
             .when('/login', {
                 controller: 'LoginCtrl',
                 controllerAs: 'vm',
-                templateUrl: 'pages/login.html'
+                templateUrl: 'app/modules/login/login.html'
             });
     });
 })();

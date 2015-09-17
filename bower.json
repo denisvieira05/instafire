@@ -1,7 +1,7 @@
 {
-  "name": "firengram",
+  "name": "Instafire",
   "version": "0.0.0",
-  "homepage": "https://github.com/fromdenisvieira/firegram",
+  "homepage": "https://github.com/fromdenisvieira/instafire.git",
   "authors": [
     "Denis Vieira <denisvieira05@gmail.com>"
   ],
@@ -11,6 +11,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "lib",
     "test",
     "tests"
   ],
@@ -22,6 +23,6 @@
     "firebase": "~2.2.9",
     "font-awesome": "~4.4.0",
     "ng-img-crop": "ngImgCrop#~0.3.2",
-    "toastr": "~2.1.2"
+    "toast": "~1.2.4"
   }
 }
