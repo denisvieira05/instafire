@@ -1,1 +1,1 @@
-# Fire{{ng}}gram
+# INSTAFIRE

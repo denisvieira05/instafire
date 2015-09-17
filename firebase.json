@@ -1,0 +1,9 @@
+{
+  "firebase": "instafire",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
